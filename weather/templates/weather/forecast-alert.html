@@ -5,13 +5,34 @@
 <head>
 	<title>Forecast - Alert!</title>
 	
-	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 
 </head>
-<body>
-	<!-- your single-location forecast with alert interface here -->
-</body>
+<div class = "container">
+  <p style="text-align:left;">
+    <img src = "https://www.clipartmax.com/png/middle/24-248259_weather-png-free-download-news-and-weather-icon.png" width="40" height="40">
+    YOUR WEATHER
+    <span style="float:right;">
+        10 mins ago
+    </span>
+</p>
+  <div class = "row">
+    Austin, TX
+  </div>
+  <div class = "row">
+    Flash Flood Warning
+  </div>
+  <div class = "row">
+    Starting: 4:57pm
+  </div>
+  <div class = "row">
+    Ending: 6:23pm
+  </div>
+  <div class = "row">
+    National Weather Service detected thunderstorms near Austin, TX at 4:41pm.
+  </div>
+</div>
 </html>
 
 
