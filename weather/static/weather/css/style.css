@@ -1,3 +1,59 @@
-body{
-  color: black;
+.forecast_page{
+  background-image: url(https://wallpaperaccess.com/full/3898677.jpg);
+  height:1000px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border:3px black solid;
+}
+.app_date{
+  text-align: center;
+  border:3px black solid;
+  width: 28%;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin:auto;
+  margin-top:3px;
+  font-size: 32px;
+}
+.widget{
+  float: left;
+  width:33%;
+  border:3px black solid;
+  box-sizing: border-box;
+  margin: 1px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.alert{
+  width: 66%;
+  background: lightblue;
+  border:3px black solid !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alert_header{
+  font-size: 20px;
+}
+
+.compare_box{
+  border:3px black solid !important;
+  font-size: 28px;
+  margin: 5px;
+}
+
+.compare_header{
+  text-align: center;
+  font-size: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3%;
 }
